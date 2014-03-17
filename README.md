@@ -1,7 +1,7 @@
 yamlcheck
 =========
 
-A python snippet that use pyyaml to check your yaml file for syntax error.
+A python snippet that use pyyaml to check your yaml file(s) for syntax error.
 
 
 
@@ -17,6 +17,10 @@ $ pip install pyyaml
 $ git clone git@github.com:kbotnen/yamlcheck.git
 ```
 Usage:
+```
+$ python yamlcheck.py -h
+```
+or
 ```
 $ python yamlcheck.py -f test.yaml
 ```
