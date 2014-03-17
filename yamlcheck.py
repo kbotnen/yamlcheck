@@ -28,7 +28,7 @@ def parsefile(filename):
   try: 
     yamlfile = open(filename, 'r')
     try: 
-      yaml.load(yamlfile)
+      yaml.safe_load(yamlfile)
       #print filename, "ok"
     except Exception as e:
       print "YAML error" + str(e)    
